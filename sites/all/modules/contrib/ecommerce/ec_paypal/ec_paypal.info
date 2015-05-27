@@ -1,0 +1,21 @@
+name = "PayPal"
+description = "Process payments using paypal."
+package = "e-Commerce Payment Methods"
+dependencies[] = ec_receipt
+dependencies[] = ec_customer
+dependencies[] = ctools
+core = 7.x
+php = 5.2
+
+
+files[] = ec_paypal.install
+files[] = ec_paypal.module
+files[] = ec_paypal.views.inc
+files[] = templates/ec_receipt_checkout_types_paypal.tpl.php
+
+; Information added by Drupal.org packaging script on 2014-11-17
+version = "7.x-4.7-beta1+60-dev"
+core = "7.x"
+project = "ecommerce"
+datestamp = "1416203917"
+

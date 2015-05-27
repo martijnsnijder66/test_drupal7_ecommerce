@@ -1,0 +1,13 @@
+name = Receipting Tests
+description = Some modules which will allow for testing of receipting
+package = Testing
+core = 7.x
+hidden = TRUE
+
+
+; Information added by Drupal.org packaging script on 2014-11-17
+version = "7.x-4.7-beta1+60-dev"
+core = "7.x"
+project = "ecommerce"
+datestamp = "1416203917"
+
